@@ -6,64 +6,68 @@
     <link rel="stylesheet" href="style-daftar.css">
     <title>Formulir Pendaftaran</title>
     <style>
-        body {
-            font-family: "Inria Sans";
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+    body {
+        font-family: "Inria Sans";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
 
-        .signup-container {
-            position: relative;
-            width: 300px;
-            max-width: 400px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-            background-color: #fff;
-            color: #A94C2E; 
-        }
+    .signup-container {
+        position: relative;
+        width: 300px;
+        max-width: 400px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #fff;
+        color: #A94C2E;
+    }
 
-        .input-group {
-            margin-bottom: 15px;
-            text-align: left;
-        }
+    .input-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
 
-        label {
-            display: inline-block;
-            margin-bottom: 5px;
-            color: #A94C2E; 
-        }
+    label {
+        display: inline-block;
+        margin-bottom: 5px;
+        color: #A94C2E;
+    }
 
-        input {
-            width: calc(100% - 20px);
-            padding: 8px;
-            box-sizing: border-box;
-            color: #A94C2E;
-            margin-bottom: 10px;
-        }
+    input {
+        width: calc(100% - 20px);
+        padding: 8px;
+        box-sizing: border-box;
+        color: #A94C2E;
+        margin-bottom: 10px;
+    }
 
-        button {
-            background-color: #A94C2E;
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
+    input::placeholder {
+        color: #A94C2E;
+    }
 
-        button:hover {
-            background-color: #E55604;
-        }
+    button {
+        background-color: #A94C2E;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
 
-        .error-message {
-            color: red;
-        }
-    </style>
+    button:hover {
+        background-color: #E55604;
+    }
+
+    .error-message {
+        color: red;
+    }
+</style>
 </head>
 <body>
     <div class="signup-container">
@@ -88,7 +92,7 @@
             <button type="button" onclick="validateSignup()">Daftar</button>
             <p id="errorMessage" class="error-message"></p>
         </form>
-        <p>Sudah punya akun? <b><a href="login.html">Masuk</a></b></p>
+        <p>Sudah punya akun? <b><a href="login.html" style="color: #A94C2E;">Masuk</a></b></p>
     </div>
     <script src="script-daftar.js"></script>
 </body>
