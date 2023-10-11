@@ -8,7 +8,7 @@
     <title>Login Form</title>
     <style>
         body {
-            font-family: "Inria Sans";
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -35,7 +35,7 @@
         }
 
         .input-group i {
-            position:absolute;
+            position: absolute;
             right: 60px;
             top: 60%;
             transform: translateY(-50%);
@@ -51,14 +51,24 @@
             width: calc(100% - 20px);
             padding: 8px;
             box-sizing: border-box;
-            color: black;
+            color: #A94C2E;
+        }
+
+        
+        #email::placeholder {
+            color: #A94C2E;
+        }
+
+       
+        #password::placeholder {
+            color: #A94C2E;
         }
 
         .remember-me {
             margin-bottom: 15px;
             display: flex;
             align-items: center;
-            width: 60%;
+            width:60%;
             text-align: left;
             color: #A94C2E;
         }
@@ -88,11 +98,11 @@
             <div class="input-group">
                 <b><label for="email">Alamat Email:</label></b>
                 <input type="text" id="email" placeholder="Masukkan Alamat Email">
-                <i class='bx bx-envelope'></i>
+                <i class='bx bx-envelope' ></i>
             </div>
             <div class="input-group">
                 <b><label for="password">Kata sandi:</label></b>
-                <input type="password" id="password" placeholder="Masukkan Kata Sandi">
+                <input type="password" id="password" placeholder="Masukkan Kata Sandi" >
                 <i class='bx bx-lock-alt'></i>
             </div>
             <div class="remember-me">
@@ -102,8 +112,8 @@
             <button type="button" onclick="validateLogin()">Login</button>
             <p id="errorMessage" class="error-message"></p>
         </form>
-        <p>Belum punya akun? <b><a href="daftar.html">Daftar</a></b></p>
+        <p>Belum punya akun? <b><a href="daftar.html" style="color: #A94C2E;">Daftar</a></b></p>
     </div>
-    <script src="login.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
