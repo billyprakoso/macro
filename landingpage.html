@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=La Belle Aurore' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inria Sans' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </link>
+  <style>
+    body {
+      background-color: #FFFAEE;
+    }
+
+    .navimg {
+      margin-left: 30px;
+      margin-bottom: 6px;
+    }
+
+    nav a:nth-child(2) {
+      font-family: "La Belle Aurore";
+      margin-left: 10px;
+      margin-top: 1px;
+    }
+
+    a {
+      font-family: "Inria Sans";
+      text-decoration: none;
+      margin-right: 30px;
+    }
+
+    button {
+      margin-right: 30px;
+    }
+
+    footer {
+      padding: 2% 10% 10%;
+      background-color: #A94C2E;
+      color: aliceblue;
+      position: relative;
+      margin-top: 110px;
+      line-height: 20px;
+      margin-top: 70px;
+    }
+
+    h3 {
+      font-family: "Inria Sans";
+    }
+
+    .footer h1 {
+      font-family: "La Belle Aurore";
+      padding-top: 80px;
+    }
+
+    /* Welcome */
+
+    .welcome {
+      min-height: 500px;
+      margin-top: 200px;
+    }
+
+    .welcome h2 {
+      font-size: 50px;
+      font-family: "La Belle Aurore";
+      color: #A94C2E;
+    }
+
+    .welcome h3 {
+      font-size: 32px;
+      font-family: "Inria Sans";
+      font-weight: bold;
+      color: #A94C2E;
+    }
+
+    .welcome p {
+      font-size: 28px;
+      font-family: "Inria Sans";
+      font-weight: bold;
+      color: #5C1B1B;
+    }
+
+    .welcome p span {
+      color: #A94C2E;
+    }
+
+    /* akhir Welcome */
+
+    /* Quote */
+    .qoute {
+      min-height: 500px;
+      background-color: #A94C2E;
+      font-family: "Inria Sans";
+      padding-top: 150px;
+    }
+
+    /* akhir Quote */
+
+    /* Konten */
+    .content {
+      min-height: 500px;
+      padding-top: 100px;
+    }
+
+    .content h3 {
+      font-family: "Inria Sans";
+      font-size: 20px;
+      color: #A94C2E;
+      text-align: left;
+    }
+
+    .content h5 {
+      font-family: "Inria Sans";
+      color: #FFFAEE;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .content p {
+      font-family: "Inria Sans";
+      color: #FFFAEE;
+      font-size: 14px;
+    }
+
+    .content button {
+      margin-top: 20px;
+      width: 150px;
+      background-color: #A94C2E;
+      border-radius: 50px;
+      color: #FFFAEE;
+      font-size: 28px;
+      font-family: "Inria Sans";
+    }
+
+    .content .garis {
+      border: 1px solid black;
+    }
+
+    .content .card {
+      border-radius: 30px;
+    }
+
+    .content .card-img-top {
+      border-radius: 30px;
+    }
+
+    /* akhir Konten */
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar" style="background-color: #A94C2E;">
+    <div class="container-fluid">
+      <img src="assets/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top navimg">
+      <a class="logo navbar-brand text-light me-auto p-2" href="#">Eksplor Seni</a>
+      <a class="text-light pl-3" href="#">Beranda</a>
+      <a class="text-light pl-3" href="#">Artikel</a>
+      <a class="text-light pl-3" href="#">Edukasi</a>
+      <a class="text-light pl-3" href="#">Kuis</a>
+      <a class="text-light pl-3" href="#">Galeri</a>
+      <button type="button" class="btn btn-outline-light">Bahasa ▼</button>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- Welcome -->
+  <section id="welcome" class="welcome">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-4 align-self-center ms-5">
+          <h2>Eksplor Seni</h2>
+        </div>
+        <div class="col-7 ms-4">
+          <h3>Selamat datang di Eksplorasi Seni!</h3>
+          <p>Sebuah platform berupa situs web yang dirancang untuk memperluas pemahaman tentang seni dan budaya dalam
+            skala nasional, menyediakan beragam fitur yang mencakup <span>kuis</span>, <span>konten edukasi</span>,
+            <span>artikel</span>, serta <span>galeri</span> seni dan
+            budaya.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir Welcome -->
+
+  <!-- Quote -->
+  <section id="qoute" class="qoute">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <p style="color: #FFFAEE; font-size: 24px;">“Tujuan utama dari situs ini adalah
+            untuk meningkatkan pengetahuan
+            tentang seni dan
+            budaya, terutama di
+            kalangan remaja di Indonesia. Membantu pelajar untuk mendapatkan edukasi seputar seni budaya yang mampu
+            meningkatkan wawasan dalam setiap daerah dikalangan pelajar agar mereka dapat meresapi dan menghargai
+            keindahan serta signifikansi budaya tradisional dan seni lokal dari tempat-tempat yang berbeda”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir Qoute -->
+
+  <!-- Konten -->
+  <section id="content" class="content">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-3 align-self-center">
+          <h3>Beberapa konten kami ialah membantu pelajar untuk mendapatkan edukasi seputar seni budaya yang mampu
+            meningkatkan wawasan dalam setiap daerah dikalangan pelajar agar mereka dapat meresapi dan menghargai
+            keindahan serta signifikansi budaya tradisional dan seni lokal dari tempat-tempat yang berbeda.</h3>
+          <button type="button" class="btn">Eksplor</button>
+
+        </div>
+        <div class="col-4">
+          <div class="card" style="background-color: #A94C2E;">
+            <img src="assets/konten/1.png" class="card-img-top garis" alt="Artikel">
+            <div class="card-body">
+              <h5 class="card-title">Artikel</h5>
+              <p class="card-text">Tari Tradisional yang hilang termakan oleh zaman modern</p>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #A94C2E;">
+            <img src="assets/konten/2.png" class="card-img-top garis" alt="Artikel">
+            <div class="card-body">
+              <h5 class="card-title">Galeri</h5>
+              <p class="card-text">Honai, rumah adat mungil khas papua</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="background-color: #A94C2E;">
+            <img src="assets/konten/3.jpg" class="card-img-top garis" alt="Artikel">
+            <div class="card-body">
+              <h5 class="card-title">Konten Edukasi</h5>
+              <p class="card-text">Ayo luangkan waktumu untuk mencoba belajar Bahasa Madura</p>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #A94C2E;">
+            <img src="assets/konten/4.png" class="card-img-top garis" alt="Artikel">
+            <div class="card-body">
+              <h5 class="card-title">Kuis</h5>
+              <p class="card-text">Honai, rumah adat mungil khas papua</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- akhir Konten -->
+
+  <!-- footer -->
+  <footer class="pb-0">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h3 class="pb-2">Halaman</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Beranda</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Edukasi</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Artikel</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Kuis</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Galeri</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h3 class="pb-2">Sosial Media</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tiktok</a></li>
+        </ul>
+      </div>
+
+      <div class="text-light col-md-2 mb-3">
+        <h3 class="pb-2">Tentang Kami</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Alamat</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Kontak</a></li>
+
+        </ul>
+      </div>
+
+      <div class="footer text-center col-md-5 offset-md-1 mb-3">
+        <h1>Eksplor Seni</h1>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-0 border-top">
+        <p>© 2023 Swakarya. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+  </footer>
+  <!-- footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  </script>
+
+</html>
