@@ -21,6 +21,7 @@ h2 {
   box-sizing: border-box;
   padding: 5px;
   text-align: center;
+  font-weight: bolder;
 }
 
 @media (max-width: 768px) {
