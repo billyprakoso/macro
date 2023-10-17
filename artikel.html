@@ -13,17 +13,15 @@
         body {
           background-color: #FFFAEE;
         }
+
+        .tombol:hover {
+          background-color: #7f3922;
+        }
   
         img{
           margin-left: 30px;
           margin-bottom: 6px;
         }
-
-        @media only screen and (max-width: 800px) {
-  .some {
-    width: 200px;
-  }
-}
   
         nav a:nth-child(2) {
           font-family: "La Belle Aurore";
@@ -40,6 +38,10 @@
         button {
           margin-right: 30px;
         }
+        
+        .pencet{
+        background-color: #A94C2E;
+      }
   
         footer {
           padding: 2% 10% 10%;
@@ -59,6 +61,17 @@
           font-family: "La Belle Aurore";
           padding-top: 80px;
         }
+
+        .bahasa {
+        border-radius: 50px;
+        padding-bottom: 8px;
+      }
+
+      .bahasa:hover {
+          background-color: #FFFAEE;
+          color: #A94C2E;
+        }
+
   
       </style>
     </head>
@@ -74,35 +87,35 @@
           <a class="text-light pl-3" href="konten_edukasi.html">Edukasi</a>
           <a class="text-light pl-3" href="daftar.html">Kuis</a>
           <a class="text-light pl-3" href="galeri.html">Galeri</a>
-          <button type="button" class="btn btn-outline-light">Bahasa ▼</button>
+          <button type="button" class="btn bahasa btn-outline-light">Bahasa ▼</button>
       </div>
     </nav>
     <!-- navbar -->
 
 
-    <div class="card mx-5 mt-3 d-flex flex-row pe-xl-5">
-
-    
-  <div class="input-group col-md-6 me-4">
-    <input type="text" placeholder="search" class="form-control">
-  </div>
-
-  <div>
-  <div class="input-group col-md-6 rounded-3 px-3 py-3" style="background-color: #A94C2E; color: #FFFAEE;">
-<i class="fa-solid fa-magnifying-glass">
-
-</i>
+    <div class="text-center">
+      <div class="row">
+        <div class="col-md-12 mt-5 d-flex">
+          <form class="form-inline d-flex mx-auto" style="width: 1100px; padding-bottom: 20px;">
+            <input class="form-control mr-sm-2" style="border: 1px solid #A94C2E;" type="text" placeholder="Cari Artikel & Event" /> 
+            <button class="btn tombol my-2 my-sm-0 pencet ms-2" type="submit">
+              <i class="fa-solid fa-magnifying-glass" style="color: #fffaee;"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      </div>
 </div>
 </div>
 </div>
     <!-- card artikel -->
 
-    <div class="card mb-3 mx-xl-5 mt-3 py-3" style="background-color: #A94C2E; padding-right: 100px; border-radius: 15px; padding: 40px;">
+    <div class="card mb-3 mx-5 mt-3 py-3" style="background-color: #A94C2E; padding-right: 100px; border-radius: 15px; padding: 40px;">
       <div class="row g-">
-        <div class="col-md-3">
-          <img src="asset/artikel1.png" class="img-thumbnail rounded-5" alt="...">
+        <div class="col-md-2 me-5">
+          <img src="asset/artikel1.png" class="img-thumbnail rounded-5 mt-2" alt="...">
         </div>
-        <div class="some col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width: 860px;">
+        <div class="col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width: 830px;">
           <div class="card-body">
             <h5 class="card-title">Pendidikan, Seni, dan Budaya: Entitas Lokal dalam Peradaban 
               Manusia Masa Kini</h5>
@@ -115,10 +128,10 @@
 
     <div class="card mb-3 mx-5 mt-3 py-3" style="background-color: #A94C2E; padding-right: 100px; border-radius: 15px; padding: 40px;">
       <div class="row g-">
-        <div class="col-md-3">
-          <img src="asset/artikel2.png" class="img-thumbnail rounded-5" alt="...">
+        <div class="col-md-2 me-5">
+          <img src="asset/artikel2.png" class="img-thumbnail rounded-5 mt-2"  alt="...">
         </div>
-        <div class="col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width:860px;">
+        <div class="col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width:830px;">
           <div class="card-body">
             <h5 class="card-title">Ayo Ikut Seni Rupa Fair 2023!</h5>
             <p class="card-text">Tanggal: 23 Oktober 2023
@@ -131,10 +144,10 @@
 
     <div class="card mb-3 mx-5 mt-3 py-3" style="background-color: #A94C2E; padding-right: 100px; border-radius: 15px; padding: 40px;">
       <div class="row g-">
-        <div class="col-md-3">
-          <img src="asset/artikel3.png" class="img-thumbnail rounded-5" alt="...">
+        <div class="col-md-2 me-5">
+          <img src="asset/artikel3.png" class="img-thumbnail rounded-5 mt-2" alt="...">
         </div>
-        <div class="col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width:860px;">
+        <div class="col-md-6 me-xxl-5 rounded-3" style="background-color: #FFFAEE; width:830px;">
           <div class="card-body">
             <h5 class="card-title">Sikap Siswa Terhadap Pembelajaran Seni Tari Di Masa Pandemi Covid-19</h5>
             <p class="card-text">Yuli Tri Astuti Fakultas Pendidikan Seni; Universitas Negeri Semarang. Wahyu 
@@ -154,7 +167,7 @@
     <footer class="pb-0 ">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
-          <h3 class="pb-2">Halaman</h3>
+          <h3 class="pb-2 fs-5" style="font-weight: bolder;">Halaman</h3>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Beranda</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Edukasi</a></li>
@@ -165,7 +178,7 @@
         </div>
   
         <div class="col-6 col-md-2 mb-3">
-          <h3 class="pb-2">Sosial Media</h3>
+          <h3 class="pb-2 fs-5" style="font-weight: bolder;">Sosial Media</h3>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Tiktok</a></li>
@@ -173,7 +186,7 @@
         </div>
   
         <div class="text-light col-md-2 mb-3">
-          <h3 class="pb-2">Tentang Kami</h3>
+          <h3 class="pb-2 fs-5" style="font-weight: bolder;">Tentang Kami</h3>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">Alamat</a></li>
             <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-white">Kontak</a></li>
