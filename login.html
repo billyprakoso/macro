@@ -74,9 +74,15 @@
         margin-bottom: 15px;
         display: flex;
         align-items: center;
-        width: 60%;
+        width: 45%;
+        margin-left: 20px;
         text-align: left;
         color: #a94c2e;
+        margin-top: -35px;
+      }
+
+      .checkbox {
+        margin-bottom: 7px;
       }
 
       .error-message {
@@ -116,8 +122,8 @@
           <i class="bx bx-lock-alt" style="margin-top: 4px"></i>
         </div>
         <div class="remember-me" style="padding-bottom: 10px">
-          <input type="checkbox" id="rememberMe" />
-          <b><label for="rememberMe">Ingatkan&nbsp;Saya</label></b>
+          <input type="checkbox" class="checkbox" id="rememberMe" />
+          <h5><label for="rememberMe">Ingatkan&nbsp;Saya</label></h5>
         </div>
         <button type="button" onclick="validateLogin()">Login</button>
         <p id="errorMessage" class="error-message"></p>
